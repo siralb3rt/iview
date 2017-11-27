@@ -171,12 +171,15 @@
                 this.close();
             },
             ok () {
+                /*
                 if (this.loading) {
                     this.buttonLoading = true;
-                } else {
+                }
+                else {
                     this.visible = false;
                     this.$emit('input', false);
                 }
+                */
                 this.$emit('on-ok');
             },
             EscClose (e) {
